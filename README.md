@@ -13,14 +13,13 @@ data set available at: http://archive.ics.uci.edu/ml/datasets/communities+and+cr
 
 
 
-########################## REQUIRED LIBRARIES ######################################
+## REQUIRED LIBRARIES
 Our implementation requires the following libraries be already installed on python:
 __future__, argparse, functools, numpy, pandas, 
 clean_data, pickle, sklearn, scipy, collections
-####################################################################################
 
 
-######################### ALGORITHM'S DESCRIPTION ##################################
+# ALGORITHM'S DESCRIPTION
 Our algorithm AIF-Learn is implemented in 'aif_learn.py'. Here's a short description:
 
 'aif_learn.py' takes as input:
@@ -44,14 +43,12 @@ and outputs a dictionary stored as a pickle file under ~/pickles containing:
 	-'alpha': the alpha input to the algorithm.
 	-'weight_set': the set of learned weights used to define the learned mapping.
 	-'individuals': the set of training individuals used to define the mapping.
-#####################################################################################
 
 
-############################# AN EXAMPLE ############################################
+# AN EXAMPLE
 Here is a fast toy example: run on your terminal
 
 	python3 aif_learn.py -d communities -alpha 0.1 -max_iter 5
-#####################################################################################
 
 
 ############################# VISUALIZATION #########################################
