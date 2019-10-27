@@ -1,0 +1,2 @@
+# AIF
+Average Individual Fairness
