@@ -1,7 +1,7 @@
 # LEARNING SUBJECT TO AVERAGE INDIVIDUAL FAIRNESS (AIF):  IMPLEMENTATION IN PYTHON3
 
 
-# CITATION
+## CITATION
 The algorithm is implemented by modifying the expgrad reduction algorithm
 (Agarwal et al. 2018, written in classred.py file) which is publicly available at: 
 https://github.com/microsoft/fairlearn.
