@@ -1,4 +1,4 @@
-# LEARNING SUBJECT TO AVERAGE INDIVIDUAL FAIRNESS (AIF)
+## LEARNING SUBJECT TO AVERAGE INDIVIDUAL FAIRNESS (AIF)
 See our paper: https://arxiv.org/abs/1905.10607
 
 ## CITATION
@@ -6,11 +6,8 @@ The algorithm is implemented by modifying the expgrad reduction algorithm
 (Agarwal et al. 2018, written in classred.py file) which is publicly available at: 
 https://github.com/microsoft/fairlearn.
 We therefore thank Microsoft Corporation for making their codes accessible.
-Our current codes are prepared only for submission as a supplementary file to NeurIPS 
-2019, and not for online distribution purposes.
 We also thank the UCI Machine Learning Repository for the Communities and Crime 
 data set available at: http://archive.ics.uci.edu/ml/datasets/communities+and+crime
-
 
 
 ## REQUIRED LIBRARIES
@@ -46,7 +43,7 @@ and outputs a dictionary stored as a pickle file under ~/pickles containing:
 
 
 # AN EXAMPLE
-Here is a fast toy example: run on your terminal
+Here is a fast toy example:
 
 	python3 aif_learn.py -d communities -alpha 0.1 -max_iter 5
 
