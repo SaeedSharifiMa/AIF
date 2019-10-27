@@ -1,5 +1,5 @@
-# LEARNING SUBJECT TO AVERAGE INDIVIDUAL FAIRNESS (AIF):  IMPLEMENTATION IN PYTHON3
-
+# LEARNING SUBJECT TO AVERAGE INDIVIDUAL FAIRNESS (AIF)
+See our paper: https://arxiv.org/abs/1905.10607
 
 ## CITATION
 The algorithm is implemented by modifying the expgrad reduction algorithm
