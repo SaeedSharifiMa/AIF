@@ -51,21 +51,18 @@ Here is a fast toy example: run on your terminal
 	python3 aif_learn.py -d communities -alpha 0.1 -max_iter 5
 
 
-############################# VISUALIZATION #########################################
+# VISUALIZATION
 'plot_convergence.py' and 'plot_errorspread.py' visualize the results as in our paper,
 and save the figures under ~/figures.
-#####################################################################################
 
 
-########################## SYNTHETIC DATA GENERATION ################################
+# SYNTHETIC DATA GENERATION
 'synthetic_data_generator.py' generates synthetic data sets as described in the
 supplement of our paper, and stores them under ~/dataset.
-#####################################################################################
 
 
-############################## SAVED FILES ##########################################
+# SAVED FILES
 We have our experimental results on the Communities and Crime as well as the
 synthetic data set saved under ~/pickles. These are the outputs of our algorithm on 
 the specified range of alpha after 1000 iterations. Corresponding figures appear
 under ~/figures.
-#####################################################################################
